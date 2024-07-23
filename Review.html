@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<style>
+    /* Basic styling for the review form */
+    h1{
+        text-align: center;
+        padding-top: 2%;
+    }
+.review-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-form h2 {
+    font-size: 1.2em;
+}
+
+.review-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.star.selected {
+    color: orange;
+}
+
+#submit-review, #reset-review {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="visitor-count">Visitors: <span id="count">0</span></div>
+                <div class="Logo"><img src="../New folder/Image/logo.png" alt=""></div>
+                <ul class="nlist">
+                    <li><a href="Landing_page.html" class="nav-item">Home</a></li>
+                    <li><a href="about.html" class="nav-item">About</a></li>
+                    <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+                    <li><a href="contactus.html" class="nav-item">Contact</a></li>
+                    <li><a href="Review.html" class="active">Review</a></li>
+                    <li><a href="Queries link.html" class="nav-item">Queries link</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+
+    <h1>Review & Rating</h1>
+    
+    <div class="review-form">
+        <h2>Add a Review</h2>
+        <textarea id="review-text" placeholder="Write your review here"></textarea>
+        <div class="rating">
+            <h2>Rating:</h2>
+            <div id="stars">
+                <span class="star" data-rating="1">☆</span>
+                <span class="star" data-rating="2">☆</span>
+                <span class="star" data-rating="3">☆</span>
+                <span class="star" data-rating="4">☆</span>
+                <span class="star" data-rating="5">☆</span>
+            </div>
+        </div>
+        <button id="submit-review">Submit</button>
+        <button id="reset-review" type="reset">Reset</button>
+    </div>
+    <div class="ticker-container">
+        <div class="ticker">
+            <p id="ticker-content"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: jenksaquarium@gmail.com</p>
+                <p>Phone: 732-899-1659</p>
+                <p>Address: 300 Ocean Avenue, Point Pleasant Beach, NJ 08742 <br><a href="https://www.google.com/maps/place/300+Ocean+Ave+N,+Point+Pleasant+Beach,+NJ+08742,+USA/@40.094187,-74.0391564,17z/data=!3m1!4b1!4m6!3m5!1s0x89c186047cb35053:0x36b7c7f1e6dcc620!8m2!3d40.0941829!4d-74.0365761!16s%2Fg%2F11c3q4gny4?entry=ttu"><u>732-892-0600</u></a></p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="flist">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Review.html">Review</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 Jekinson's Sealife | All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

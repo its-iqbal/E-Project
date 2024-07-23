@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<style>
+  body{
+    background-image: url(Image/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(162, 192, 219);
+    font-weight: 400;
+    text-decoration: solid;
+    padding-top: 2%;
+  }
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 128, 0, 0.856);
+  transition: 0.3s;
+  width: 40%;
+  border: 4px solid rgb(16, 142, 226);
+     border-radius: 8px;
+     size: 400px;
+     text-align: center;
+     font-size: medium;
+     
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 0, 0, 0.822);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+</style>
+<body>
+  <header>
+    <nav>
+        <div class="container">
+            <div class="visitor-count">Visitors: <span id="count">0</span></div>
+            <div class="Logo"><img src="../New folder/Image/logo.png" alt=""></div>
+            <ul class="nlist">
+                <li><a href="Landing_page.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contactus.html" class="nav-item">Contact</a></li>
+                <li><a href="Review.html" class="nav-item">Review</a></li>
+                <li><a href="Queries link.html" class="nav-item">Queries link</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+  <h1>Gallery</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Image/image1.jpg"width="100px" height="700px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Image/image12.jpg"width="100px" height="700px" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Image/image8.jpg"width="100px" height="700px" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <div class="container mt-5">
+        <div class="row">
+         <div class="col-md-4" >  
+    <div class="card" style="width: 18rem; margin: 3rem;">
+        <img src="Image/penguin2.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i><b>PENGUIN</b></i></h5>
+          <p class="card-text"><i>Penguins are beloved birds that are excellent swimmers. They have adapted to life in the water and can be entertaining to watch as they "fly" underwater.</i></p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin: 3rem;">
+        <img src="Image/fish.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i><b>FISH'S</b></i></h5>
+          <p class="card-text"><i> Jenkinsons Aquariums typically have a diverse collection of fish species, including tropical fish, reef fish, and predatory fish like sharks and rays.</i></p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin: 3rem;">
+        <img src="Image/seal1.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i><b>Seal:Noelani</b></i></h5>
+          <p class="card-text"><i>Commonly featured in aquariums, seals are charismatic marine mammals. They are known for their playful behavior and graceful swimming.</i></p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin: 3rem;">
+        <img src="Image/shark.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i><b>Sharks:</b></i></h5>
+          <p class="card-text"><i>Some aquariums have large tanks with various species of sharks. These exhibits are designed to educate visitors about these apex predators.          </i></p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card" style="width: 18rem; margin: 3rem;">
+        <img src="Image/Turtles.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><i><b>Turtles:</b></i></h5>
+          <p class="card-text"><i></i>Sea turtles are often featured in aquariums as they are endangered species. They provide educational opportunities about conservation efforts.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem; margin: 3rem;">
+          <img src="Image/jellyfish.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><i><b>Jellyfish:</b></i></h5>
+            <p class="card-text"><i>
+              Jellyfish exhibits can be mesmerizing, with their translucent bodies and graceful movements. They are usually showcased in tanks with specialized lighting.</i></p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem; margin: 3rem;">
+            <img src="Image/anemones.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><i><b>Anemones:</b></i></h5>
+              <p class="card-text"><i>
+                Sea anemones are carnivorous marine animals known for their stinging tentacles, which they use to capture prey. They often form mutualistic relationships with clownfish in coral reefs..</i></p>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; margin: 3rem;">
+              <img src="Image/starfish.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><i><b>Sea starfish:</b></i></h5>
+                <p class="card-text"><i>
+                  jenkinson Starfish, also known as sea stars, are marine animals characterized by their radial symmetry and distinctive arms. They use tube feet to move and feed on small marine organisms</i></p>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem; margin: 3rem;">
+                <img src="Image/octopus.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><i><b>Octopus:</b></i></h5>
+                  <p class="card-text"><i>Octopuses are highly intelligent, eight-armed cephalopods known for their problem-solving abilities and camouflage skills. They are carnivorous and have a unique, beak-like mouth for capturing prey.</i></p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem; margin: 3rem;">
+                  <img src="Image/seahores.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><i><b>Sea Hores:</b></i></h5>
+                    <p class="card-text"><i> jenkinson Seahorses are unique marine fish with upright bodies, a curled tail, and a distinctive appearance</i>.</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem; margin: 3rem;">
+                    <img src="Image/clownfish.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><i><b>clownFish</b></i></h5>
+                      <p class="card-text"><i>Orange clownfish are a famous specie striking coloration and mutualistic relationship with sea anemones.</i></p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem; margin: 3rem;">
+                      <img src="Image/lionfish.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"><i><b>LionFish:</b></i></h5>
+                        <p class="card-text"><i>
+                          Lionfish are venomous marine fish known for their striking appearance, featuring colorful fin rays and a fan-like display.</i></p>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card" style="width: 18rem; margin: 3rem;">
+                        <img src="Image/bluetang.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><i><b>Blue Tang:</b></i></h5>
+                          <p class="card-text">
+                            Blue tang fish, recognized for their vibrant blue color and surgeon's scalpel-like tail, inhabit coral reefs and are popular in the aquarium trade.</p>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card" style="width: 18rem; margin: 3rem;">
+                          <img src="Image/whaleshark.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"><i><b>Whale Shark:</b></i></h5>
+                            <p class="card-text"><i>Whale sharks are the world's largest fish, with distinctive spotted patterns, and they are gentle filter-feeders often found in warm oceans.</i></p>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card" style="width: 18rem; margin: 3rem;">
+                            <img src="Image/harp seal.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title"><i><b>Harp Seal:</b></i></h5>
+                              <p class="card-text"><i> Jenkinson Aquarims Harps seals are known for their striking silvery-blue coats and are found in icy Arctic and North Atlantic waters near new Jersey.</i></p>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card" style="width: 18rem; margin: 3rem;">
+                              <img src="Image/giant fish1.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title"><i><b>Giant Manta Ray:</b></i></h5>
+                                <p class="card-text"><i>Giant manta rays are large, graceful oceanic rays known for their impressive wingspans and filter-feeding habits.</i></p>
+                              </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="card" style="width: 18rem; margin: 3rem;">
+                                <img src="image/goblin shark.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title"><i><b>Goblin Shark:</b></i></h5>
+                                  <p class="card-text"><i>
+                                   Jenkinson Aquariums Goblin sharks are rare deep-sea sharks with unique, elongated snouts and pinkish-gray skin.</i></p>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card" style="width: 18rem; margin: 3rem;">
+                                  <img src="Image/orca whale.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><i><b>Orca Whale:</b></i></h5>
+                                    <p class="card-text"><i>Orca whales, are powerful marine mammals recognized for their black and white coloration and complex social behaviors.</i></p>
+                                  </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="card" style="width: 18rem; margin: 3rem;">
+                                    <img src="Image/mermaid.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><i><b>Mermaid:</b></i></h5>
+                                      <p class="card-text"><i>Jenkinson's Boardwalk in Point Pleasant Beach,mermaid-themed attractions or displays as part of its seaside entertainment.</i></p>
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <div class="card" style="width: 18rem; margin: 3rem;">
+                                      <img src="Image/crab.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title"><i><b>Crab:</b></i></h5>
+                                        <p class="card-text"><i>
+                                        Jenkinsons  Aquariums  Crabs can be found in the coastal areas near Jenkinson's Boardwalk in Point Pleasant Beach,near by New Jersey.</i></p>
+                                      </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card" style="width: 18rem; margin: 3rem;">
+                                        <img src="Image/lobsters.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"><i><b>Lobsters:</b></i></h5>
+                                          <p class="card-text"><i>Lobsters at Jenkinson Sea Life: Explore fascinating lobsters in a variety of colors and sizes Near by New Jersey.</i></p>
+                                        </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="card" style="width: 18rem; margin: 3rem;">
+                                          <img src="Image/Eels.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                          <div class="card-body">
+                                            <h5 class="card-title"><i><b>Eels:</b></i></h5>
+                                            <p class="card-text"><i>Eels at Jenkinson Aquariums Sea Life: Discover the mysterious world of eels, known for their sinuous movements and intriguing behavior.</i></p>
+                                          </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="card" style="width: 18rem; margin: 3rem;">
+                                            <img src="Image/corals.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title"><i><b>Corals:</b></i></h5>
+                                              <p class="card-text"><i>Corals in the Sea: Corals are the architects of vibrant underwater cities, providing habitat and shelter for countless marine species in our oceans.</i></p>
+                                            </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="card" style="width: 18rem; margin: 3rem;">
+                                              <img src="Image/black moray eel.jpg"width="100px" height="300px" class="card-img-top"class="h-100" alt="...">
+                                              <div class="card-body">
+                                                <h5 class="card-title"><i><b>Black Spotted Moray Eel:</b></i></h5>
+                                                <p class="card-text"><i>Black Spotted Moray Eel at Jenkinson: Encounter the striking Black Spotted Moray Eel, a mesmerizing resident of Jenkinson Sea Life</i></p>
+                                              </div>
+                                              </div>
+                                            </div>
+                                      </div>
+                                   </div>
+                                   <footer>
+                                    <div class="container">
+                                        <div class="footer-content">
+                                            <h3>Contact Us</h3>
+                                            <p>Email: jenksaquarium@gmail.com</p>
+                                            <p>Phone: 732-899-1659</p>
+                                            <p>Address: 300 Ocean Avenue, Point Pleasant Beach, NJ 08742 <br><a href="https://www.google.com/maps/place/300+Ocean+Ave+N,+Point+Pleasant+Beach,+NJ+08742,+USA/@40.094187,-74.0391564,17z/data=!3m1!4b1!4m6!3m5!1s0x89c186047cb35053:0x36b7c7f1e6dcc620!8m2!3d40.0941829!4d-74.0365761!16s%2Fg%2F11c3q4gny4?entry=ttu"><u>732-892-0600</u></a></p>
+                                        </div>
+                                        <div class="footer-content">
+                                            <h3>Quick Links</h3>
+                                             <ul class="flist">
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="Review.html">Review</a></li>
+                                                <li><a href="contactus.html">Contact</a></li>
+                                             </ul>
+                                        </div>
+                                        <div class="footer-content">
+                                            <h3>Follow Us</h3>
+                                            <ul class="social-icons">
+                                             <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                                             <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                             <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                             <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                                            </ul>
+                                            </div>
+                                    </div>
+                                    <div class="bottom-bar">
+                                        <p>&copy; 2023 Jekinson's Sealife | All rights reserved</p>
+                                    </div>
+                                </footer>
+</body>
+</html>
